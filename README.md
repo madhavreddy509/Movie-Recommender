@@ -25,3 +25,8 @@ to users based on their past viewing habits. The project also includes an option
  <br>
  
  <img src="Screenshot (21).png" align="center" />
+
+ The project is open-source and available on Github, making it easy for developers to contribute 
+ and improve the codebase. The project welcomes any contributions, bug reports, and feedback. Overall,
+ this project aims to provide a powerful and personalized movie recommendation system that can be used 
+ in a variety of applications.
