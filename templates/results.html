@@ -1,0 +1,50 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<main id="main">
+<section id="faq" class="faq">
+<div class="container" data-aos="fade-up">
+
+    <div class="section-header">
+      <span>Movies That Are Similar To {{movie_name}}</span>
+      <h2>Movies That Are Similar To<b> {{movie_name}}<b></h2>
+
+    </div>
+
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-lg-10">
+
+        <div class="accordion accordion-flush" id="faqlist">
+
+        {% for title,overview in data.items %}
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                <i class="bi bi-question-circle question-icon"></i>
+                {{title}}
+                
+              </button>
+            </h3>
+            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+              {{overview}}
+              </div>
+            </div>
+          </div><!-- # Faq item-->
+          {% endfor %}
+          
+        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+        <li><a class="get-a-quote" href="{% url 'home' %}">Wanna Get Get Another Recommedations ----- Click Here (home)</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </div>
+
+
+</main><!-- End #main -->
+  {% endblock %}
