@@ -10,3 +10,18 @@ to users based on their past viewing habits. The project also includes an option
  
  to further improve the algorithm’s performance over time.
  
+ <img src="Screenshot (18).png" align="center" />
+ 
+ <br>
+ <br>
+ <img src="Screenshot (19).png" align="center" />
+ 
+ <br>
+ <br>
+ 
+ <img src="Screenshot (20).png" align="center" />
+ 
+ <br>
+ <br>
+ 
+ <img src="Screenshot (21).png" align="center" />
