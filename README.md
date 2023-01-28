@@ -10,6 +10,8 @@ to users based on their past viewing habits. The project also includes an option
  
  to further improve the algorithm’s performance over time.
  
+ <h1> webSite Preview </h1>
+ 
  <img src="Screenshot (18).png" align="center" />
  
  <br>
